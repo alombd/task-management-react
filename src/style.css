@@ -1,0 +1,99 @@
+body {
+  background: linear-gradient(to left, white, white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+.form-box {
+  width: 380px;
+  height: 350px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 2%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.header-form {
+  margin-bottom: 15px;
+}
+button {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.social i {
+  font-size: 35px;
+}
+
+.social i:hover {
+  color: red;
+  cursor: pointer;
+}
+
+/*
+Nav bar css
+*/
+
+.username {
+  margin-right: 10px;
+}
+
+.logout {
+  cursor: pointer;
+}
+
+.dashboard-main {
+  align-items: flex-start;
+}
+.dashboard-btn-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-btn {
+  margin-right: 10px;
+}
+
+.common-container {
+  padding: 20px 100px;
+}
+.form-block {
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  width: 50%;
+  padding: 30px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+.sub-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
